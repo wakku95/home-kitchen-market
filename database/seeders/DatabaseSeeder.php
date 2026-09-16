@@ -71,6 +71,7 @@ class DatabaseSeeder extends Seeder
                 'longitude' => 67.0011,
                 'delivery_radius_km' => 5.0,
                 'minimum_order_amount' => 300,
+                'approval_status' => 'approved',
             ]
         );
 
@@ -165,6 +166,7 @@ class DatabaseSeeder extends Seeder
                 'longitude' => 67.0900,
                 'delivery_radius_km' => 4.0,
                 'minimum_order_amount' => 250,
+                'approval_status' => 'approved',
             ]
         );
 
